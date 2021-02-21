@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0%;
+}
+
+/* STYLING LANDIND AREA */
+.landing-text {
+    height: 40vh ;
+   text-align: center;
+  
+}
+
+.landing-text h1 {
+    text-transform:uppercase;
+    margin-bottom: 0px;
+    margin-top: 200px;
+    
+}
+
+.landing-text h4{
+    color:red;
+    font-weight: bold;
+    margin: 0px;
+    
+}
+
+.button {
+    border: 1px solid rgb(177, 176, 176);
+    border-radius: 20px;
+    width: 100px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.button:hover {
+    background-color: rgb(212, 211, 211);
+}
+
+.landing-image {
+    background: url(https://images.unsplash.com/photo-1505739998589-00fc191ce01d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+   
+   
+}
+
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h2 {
+    border-left: dotted 1px white;
+    border-right: dotted 1px white;
+    max-width: fit-content;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#images{
+width: 100vw;
+}
+
+img {
+    width: 100%;
+}
+
+.caption {
+    text-align: center;
+    padding: 20px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(249, 212, 2);
+}
+
+
